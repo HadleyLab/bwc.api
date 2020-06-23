@@ -1,0 +1,16 @@
+{
+  "apps" : [
+    {
+      "name"        : "medx-api",
+      "script"      : "./dist/index.js",
+      "env": {
+        "NODE_ENV": "dev",
+        "PORT": "8090"
+      }
+    },
+    {
+      "name"        : "medx-cron",
+      "script"      :  "./dist/cron/cron.js"
+    }
+  ]
+}
